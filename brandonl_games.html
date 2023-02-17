@@ -1,0 +1,29 @@
+<!DOCTYPE html>	   <!-- comments in html blocks use this awkward structure -->
+<html lang="en">  <!-- pages will usually work without these two lines but best practice would suggest they be added -->
+
+  	<head>										<!-- 'head' is for stuff you set up before you start actually displaying things on the page itself -->
+		<meta charset="utf-8">					<!-- defines character set to be used, optional, but not using it could cause potential issues in complex pages -->
+    	<title>Brandon's Page</title>		<!-- the title text will appear on the tab for this page at the top of the browser -->
+    	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"> <!-- loads a specific font file from google directory into this page -->
+    	<link href="../styles/brandonl.css" rel="stylesheet" type="text/css">  	<!-- links to a file for storing specific css style information for this page -->
+    	<link rel="icon" type="image/x-icon" href="../images/favicon.png">
+  	</head>
+
+  	<body>	<!-- your html goes in this block  -->
+
+
+  	<h2>APW GAMES</h2>
+
+  	<img src="../images/Trevor95thv3[40]-1.jpg" style="width:100%">   <!-- this could change to link to your image in your images folder -->
+
+	<p id="jQdemo"></p>  <!--- the content of this line starts as blank but is created dynamically once javeScript/JQuery starts -->
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>    <!-- loads jquery API library --->
+  	<script src="../scripts/brandonl.js"></script>   <!-- loads js file from 'scrips' directory into this page -->
+
+  	
+  	<p><a href="https://github.com/Blioudis/Project.git"> project page repository</a></p> 
+
+  	</body>
+</html>
